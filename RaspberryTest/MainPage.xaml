@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="RaspberryTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RaspberryTest"
+    xmlns:vlc="using:VLC"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" GotFocus="Grid_GotFocus">
+        <vlc:MediaElement x:Name="MediaElement1" Margin="0,0,0,0" Height="Auto" Width="Auto" AreTransportControlsEnabled="False" HardwareAcceleration="True" Tapped="mediaElement1_Tapped"/>
+        <CommandBar IsSticky="False" ClosedDisplayMode="Minimal">
+            <AppBarButton x:Name="CameraSettingsMenu" Click="CameraSettings_Click" x:Uid="CameraManager" />
+            <AppBarButton x:Name="CloseProgram" Click="Shutdown_Click" x:Uid="Shutdown"/>
+        </CommandBar>
+    </Grid>
+</Page>
