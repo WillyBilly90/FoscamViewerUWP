@@ -8,7 +8,7 @@
     mc:Ignorable="d">
 
     <Grid Background="LightGray" Loaded="Grid_Loaded">
-        <TextBox x:Name="CameraTbx" x:Uid="CameraList" Width="auto" Margin="53,10,0,0" Height="758" VerticalAlignment="Top" IsReadOnly="True" IsTapEnabled="False" IsRightTapEnabled="False" IsHoldingEnabled="False" IsDoubleTapEnabled="False"/>
+        <TextBox x:Name="CameraTbx" x:Uid="CameraList" Width="auto" Margin="0,-1,0,0" Height="641" VerticalAlignment="Top" IsReadOnly="True" IsTapEnabled="False" IsRightTapEnabled="False" IsHoldingEnabled="False" IsDoubleTapEnabled="False"/>
         <ListView x:Name="CameraLvw" HorizontalAlignment="Left" Height="166" Margin="55,50,0,0" VerticalAlignment="Top" Width="230" BorderThickness="2" BorderBrush="AliceBlue">
         </ListView>
         <TextBox x:Name="NewCameraLbl" x:Uid="NewCamera" Width="200" Margin="392,18,432,0" FontWeight="Bold" IsReadOnly="True" BorderBrush="AliceBlue" IsTapEnabled="False" Height="20" VerticalAlignment="Top" VerticalContentAlignment="Top"/>
