@@ -12,6 +12,7 @@
         <vlc:MediaElement x:Name="MediaElement1" Margin="0,0,0,0" Height="Auto" Width="Auto" AreTransportControlsEnabled="False" HardwareAcceleration="True" Tapped="mediaElement1_Tapped"/>
         <CommandBar IsSticky="False" ClosedDisplayMode="Minimal">
             <AppBarButton x:Name="CameraSettingsMenu" Click="CameraSettings_Click" x:Uid="CameraManager" />
+            <AppBarSeparator/>
             <AppBarButton x:Name="CloseProgram" Click="Shutdown_Click" x:Uid="Shutdown"/>
         </CommandBar>
     </Grid>
